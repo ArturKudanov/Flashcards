@@ -17,9 +17,9 @@ class View {
     ]);
   }
 
-  static async greetUser(username) {
-    console.log(chalk.cyan(figlet.textSync(`Hi  little  wolf`)));
-    console.log(chalk.magenta(figlet.textSync(`${username}`)));
+  static async greetUser(userName) {
+    console.log(chalk.cyan(figlet.textSync(`Hi, little  wolf !`)));
+    console.log(chalk.magenta(figlet.textSync(`${userName}`)));
   }
 
   static async greetings() {
@@ -153,4 +153,3 @@ class View {
 }
 
 module.exports = View;
-////
