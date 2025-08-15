@@ -26,13 +26,6 @@ class Controller {
     }
 
     View.showResult(score, questions.length);
-
-    await Model.saveResult(userData.userName, {
-      score,
-      total: questions.length,
-      theme: userData.theme,
-      date: new Date().toISOString(),
-    });
   }
 }
 
