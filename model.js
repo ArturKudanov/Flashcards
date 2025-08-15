@@ -20,7 +20,5 @@ class Model {
     return arrContent;
   }
 }
-// getTopics возвращает массив объектов [{name: сокращённое_имя_файла, value: полное_имя_файла}, ...]
-// loadQestions возвращает массив объектов [{question: текст_вопроса, correct: правильный_ответ}, ...]
 
 module.exports = Model;

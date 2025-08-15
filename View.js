@@ -51,7 +51,7 @@ class View {
         type: 'input',
         name: 'userAnswer',
         message: q.question,
-        // choices,
+        
       },
     ]);
 
@@ -153,4 +153,4 @@ class View {
 }
 
 module.exports = View;
-//
+////
