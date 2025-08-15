@@ -44,10 +44,7 @@ class View {
   }
 
   static async askQuestion(q) {
-    // // const choices = q.choices.map((choice, index) => ({
-    // //   name: choice,
-    // //   value: index,
-    // }));
+    
 
     const { userAnswer } = await inquirer.prompt([
       {
